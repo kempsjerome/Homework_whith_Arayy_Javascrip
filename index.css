@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(102, 90, 85);
+
+}
+   
+.card {
+    width: 50%;
+    margin: 50px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 6px;
+    
+    /* Background avec opacité et image */
+    background: rgba(238, 164, 68, 0.20) url('back.webp') no-repeat top;
+    background-size: cover;
+}
+
+
+
+.card h1{
+    font-weight: 1000px;
+    color: rgb(0, 0, 0);
+
+    letter-spacing: 4px;
+    font-size:  50px;
+    margin-top:5px;
+    text-shadow: 2px 2px rgb(209, 186, 139);
+    
+}
+
+.card div{
+    margin: 20px 0px;
+    padding: 10px;
+
+} 
+
+.card input{
+
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.card button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+box-shadow: 2px 2px rgb(209, 186, 139);
+
+}
+
+
+
+span{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+}
+
+ 
